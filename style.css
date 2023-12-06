@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:fantasy;
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#loader{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(111, 111, 111);
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+
+#loader h1{
+    font-size: 100px;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+#page-1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 0 30px;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#nav-2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#page-1 #container h1{
+    font-size: 570px;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-stretch: 500%;
+    font-weight: 1;
+}
+
+#page-2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 50px;
+}
+
+#box-1{
+    height: 300px;
+    width: 400px;
+    border: 3px solid grey;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px;
+    background-image: url(https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFNvY2NlcnxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#box-2{
+    height: 300px;
+    width: 400px;
+    border: 3px solid grey;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px;
+    background-image: url(images/cricket.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#box-3{
+    height: 300px;
+    width: 400px;
+    border: 3px solid grey;
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px;
+    background-image: url(https://images.unsplash.com/photo-1480563597043-1c877e682fc7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fE5pZ2h0JTIwQ3JpY2tldHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#page-2 h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#page-2 p{
+    font-size: 20px;
+    color:antiquewhite;
+    font-weight: 200;
+}
+
+#page-3{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
